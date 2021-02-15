@@ -12,6 +12,8 @@ typedef	struct		s_list
 }					t_list;
 
 void				ft_bzero(void *s, size_t n);
+void	ft_makeabs(int *n, int *sign);
+char	*ft_strrev(char *str, int len);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putstr_fd(char *s, int fd);
 void				ft_putendl_fd(char *s, int fd);

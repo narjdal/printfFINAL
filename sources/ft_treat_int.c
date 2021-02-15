@@ -1,5 +1,6 @@
 
 #include "../includes/ft_printf.h"
+#include <stdio.h>
 
 static int	ft_in_put_part_int(char *d_i, int save_i, t_flags flags)
 {
